@@ -1,0 +1,54 @@
+/* Reseteo */
+* {
+    margin: 0;
+    padding: 0;
+  }
+/*desktop*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+.gridHeader {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-areas: 
+            'nav logo redIg'
+            '. logo . ';
+    width: 100%;
+    margin: 5%;
+    }
+.rotar{
+    transform: rotate(-90deg);
+    justify-self: start;
+}
+.grid-menu{
+        grid-area: nav;
+        justify-content: left;
+        font-size: 20px;
+}
+.grid-menu:hover{
+    color: #50B9B0;
+}
+ul li{
+    list-style-type: none;
+}
+.grid-logo{
+    grid-area: logo;
+    justify-content: center;
+}
+.grid-Ig{
+    grid-area: redIg;
+    justify-content: right;
+    opacity: 80%;
+}
+.logoSM:hover{
+    background-image: radial-gradient(white,#50B9B0);
+    border-radius: 20%;
+}
+iframe{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+}
