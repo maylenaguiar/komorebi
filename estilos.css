@@ -7,6 +7,7 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+/*Header*/
 .gridHeader {
     display: grid;
     flex-wrap: wrap;
@@ -44,11 +45,18 @@ ul li{
     background-image: radial-gradient(white,#50B9B0);
     border-radius: 20%;
 }
-iframe{
-    display: flex;
-    flex-wrap: wrap;
+/* Títulos*/
+h1{
+    text-align: center;
+}
+h2{
+    text-align: left;
     margin-top: 10%;
-    margin-right: 30%;
-    margin-bottom: 10%;
+    margin-left: 5%;
+}
+/*Video de hamaca presentación*/
+iframe{
+    display: inline;
+    margin-top: 5%;
     margin-left: 25%;
 }
