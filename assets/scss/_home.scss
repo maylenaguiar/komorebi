@@ -1,0 +1,34 @@
+.home_portada{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+
+        img{
+            display: flex;
+            width: 100%;
+        }
+}
+
+.section_container{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    height: 30em;
+    flex-direction: column;
+
+    .section_row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 1em;
+
+        img{
+            display: flex;
+            width: 90%;
+        }
+    }
+}
