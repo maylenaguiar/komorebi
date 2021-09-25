@@ -1,36 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet"> 
-<link rel="stylesheet" href="estilos.css">
-    <title>Komorebi</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<title>Responsive Nav</title>
 </head>
 <body>
-<header class="gridHeader">
-    <nav class="grid-menu rotar"> 
-            <ul > 
-                <li>Menu</li>
-            </ul>  
-    </nav>
-   <div class="grid-logo">
-        <a href="index.html"><img src="img/Komorebi-identidad.jpg" alt="logo"></a>
-    </div> 
-    <div class=" grid-Ig">
-    <a href="https://www.instagram.com/estampas_anouk/" target=”_blank”><img class="logoSM" src="img/logoIg.png" alt="Logo de instagram"></a>
-    </div>
-</header>
-<main>   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yJBlr9JOFzE"
-     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </main>
-<section>
-    <h2>Productos Destacados</h2>
-</section>
+	<header class="nav">
+		<nav class="nav__container">
+			<label for="menu" class="nav__label">
+				<img src="assets/svg/bx-menu.svg" alt="Hamburguesa" class="nav__img">
+			</label>
+			<input type="checkbox" name="Hamburguesa" id="menu" class="nav__input">
+			<div class="nav__menu">
+				<a href="#" class="nav__item">Sobre mí</a>
+				<a href="#" class="nav__item">Productos</a>
+				<a href="#" class="nav__item">Contacto</a>
+			</div>
+			<div class="nav__logo">
+				<a href="index.html"><img src="img/logomini.jpg" alt="Logo Komorebi"></a>
+			</div>
+			<a href="" class="nav_ig">
+				<img src="assets/svg/bx-ig.svg" alt="Instagram">
+			</a>
+		</nav>
+	</header>
+	<main>
+	<div class="home_portada">
+		<img src="img/portada.jpg" alt="Portada Komorebi">
+	</div>
+	<div class="section_container">
+		<div class="section_row">
+			<a href="#"><img src="img/categoria.jpg" alt="Categoria Uno"></a>
+			<a href="#"><img src="img/categoria.jpg" alt="Categoria Uno"></a>
+		</div>
+		<div class="section_row">
+			<a href="#"><img src="img/categoria.jpg" alt="Categoria Uno"></a>
+			<a href="#"><img src="img/categoria.jpg" alt="Categoria Uno"></a>
+		</div>
+	</div>
+	</main>
 </body>
 </html>
